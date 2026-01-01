@@ -1,0 +1,5 @@
+{
+  "name": "SSW Logistics Suite",
+  "description": "A comprehensive logistics management suite featuring login, dashboard, fleet cost simulation, and order entry modules.",
+  "requestFramePermissions": []
+}
