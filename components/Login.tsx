@@ -51,7 +51,6 @@ export const Login: React.FC<NavigationProps> = ({ navigate }) => {
                   id="input-usuario"
                   placeholder="ex: nome.sobrenome"
                   type="text"
-                  defaultValue="ricardo.soares"
                 />
                 <span className="absolute right-3 top-1/2 -translate-y-1/2 text-[#60758a] pointer-events-none">
                   <span className="material-symbols-outlined text-[20px]">
@@ -76,7 +75,6 @@ export const Login: React.FC<NavigationProps> = ({ navigate }) => {
                   id="input-senha"
                   placeholder="Digite sua senha"
                   type="password"
-                  defaultValue="password"
                 />
                 <button
                   aria-label="Mostrar senha"
