@@ -137,7 +137,7 @@ export const OrderEntry: React.FC<NavigationProps> = ({ navigate }) => {
                       className="h-10 w-full rounded-lg border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] text-[#111418] dark:text-white focus:ring-1 focus:ring-primary focus:border-primary text-sm pl-9 pr-3"
                       id="input-valor-mercadoria"
                       placeholder="0,00"
-                      type="number"
+                      type="text"
                     />
                   </div>
                 </div>

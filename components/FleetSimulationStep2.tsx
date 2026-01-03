@@ -68,7 +68,7 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                   className="w-full rounded-lg text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] focus:border-primary h-14 placeholder:text-[#9ca3af] p-4 text-base font-normal transition-all duration-200"
                   id="step2-pedagio"
                   placeholder="0,00"
-                  type="number"
+                  type="text"
                 />
               </label>
               <label className="flex flex-col gap-2">
@@ -79,7 +79,7 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                   className="w-full rounded-lg text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] focus:border-primary h-14 placeholder:text-[#9ca3af] p-4 text-base font-normal transition-all duration-200"
                   id="step2-alimentacao"
                   placeholder="0,00"
-                  type="number"
+                  type="text"
                 />
               </label>
               <label className="flex flex-col gap-2">
@@ -90,7 +90,7 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                   className="w-full rounded-lg text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] focus:border-primary h-14 placeholder:text-[#9ca3af] p-4 text-base font-normal transition-all duration-200"
                   id="step2-diaria"
                   placeholder="0,00"
-                  type="number"
+                  type="text"
                 />
               </label>
               <label className="flex flex-col gap-2">
@@ -101,7 +101,7 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                   className="w-full rounded-lg text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] focus:border-primary h-14 placeholder:text-[#9ca3af] p-4 text-base font-normal transition-all duration-200"
                   id="step2-ajudantes"
                   placeholder="0,00"
-                  type="number"
+                  type="text"
                 />
               </label>
               <label className="flex flex-col gap-2">
@@ -112,7 +112,7 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                   className="w-full rounded-lg text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] focus:border-primary h-14 placeholder:text-[#9ca3af] p-4 text-base font-normal transition-all duration-200"
                   id="step2-taxa-carga"
                   placeholder="0,00"
-                  type="number"
+                  type="text"
                 />
               </label>
             </div>
@@ -136,7 +136,7 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                   className="w-full rounded-lg text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] focus:border-primary h-14 placeholder:text-[#9ca3af] p-4 text-base font-normal transition-all duration-200"
                   id="step2-icms"
                   placeholder="0%"
-                  type="number"
+                  type="text"
                 />
               </label>
               <label className="flex flex-col gap-2">
@@ -147,7 +147,7 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                   className="w-full rounded-lg text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] focus:border-primary h-14 placeholder:text-[#9ca3af] p-4 text-base font-normal transition-all duration-200"
                   id="step2-valor-nf"
                   placeholder="0,00"
-                  type="number"
+                  type="text"
                 />
               </label>
               <label className="flex flex-col gap-2">
@@ -158,7 +158,7 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                   className="w-full rounded-lg text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] focus:border-primary h-14 placeholder:text-[#9ca3af] p-4 text-base font-normal transition-all duration-200"
                   id="step2-ad-valorem"
                   placeholder="0,00"
-                  type="number"
+                  type="text"
                 />
               </label>
               <label className="flex flex-col gap-2">
@@ -169,7 +169,7 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                   className="w-full rounded-lg text-[#111418] dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 border border-[#d1d5db] dark:border-[#374151] bg-white dark:bg-[#101922] focus:border-primary h-14 placeholder:text-[#9ca3af] p-4 text-base font-normal transition-all duration-200"
                   id="step2-gris"
                   placeholder="0,00"
-                  type="number"
+                  type="text"
                 />
               </label>
             </div>

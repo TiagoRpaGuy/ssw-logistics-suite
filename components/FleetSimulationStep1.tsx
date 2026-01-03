@@ -125,7 +125,7 @@ export const FleetSimulationStep1: React.FC<NavigationProps> = ({ navigate }) =>
                       className="w-full pl-10 pr-3 py-2 bg-white dark:bg-[#101922] border border-[#d1d5db] dark:border-[#374151] rounded-md text-sm text-[#111418] dark:text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all placeholder:text-gray-400"
                       id="step1-distancia"
                       placeholder="0"
-                      type="number"
+                      type="text"
                     />
                   </div>
                 </div>
@@ -292,7 +292,7 @@ export const FleetSimulationStep1: React.FC<NavigationProps> = ({ navigate }) =>
                       id="step1-preco-diesel"
                       placeholder="0,00"
                       step="0.01"
-                      type="number"
+                      type="text"
                     />
                   </div>
                 </div>
