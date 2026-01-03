@@ -293,7 +293,6 @@ export const FleetSimulationStep1: React.FC<NavigationProps> = ({ navigate }) =>
                       placeholder="0,00"
                       step="0.01"
                       type="number"
-                      defaultValue="5.89"
                     />
                   </div>
                 </div>

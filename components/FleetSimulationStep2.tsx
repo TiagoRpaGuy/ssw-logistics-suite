@@ -208,7 +208,6 @@ export const FleetSimulationStep2: React.FC<NavigationProps> = ({ navigate }) =>
                 htmlFor="step2-horario-comercial"
               >
                 <input
-                  defaultChecked
                   className="h-5 w-5 rounded border-[#d1d5db] dark:border-[#374151] text-primary focus:ring-primary focus:ring-offset-0 bg-white dark:bg-[#101922]"
                   id="step2-horario-comercial"
                   type="checkbox"
